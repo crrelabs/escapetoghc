@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape to GHC — Great Harbour Cay, Bahamas</title>
+    <meta name="description" content="Discover Great Harbour Cay in the Bahamas. Pristine beaches, island adventures, and two stunning beachfront vacation rentals await you.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sand: { 50: '#fdf8f0', 100: '#f5e6d0', 200: '#ebd3b0', 300: '#dfc09a', 400: '#c9a87a', 500: '#b08d5c' },
+                        ocean: { 50: '#e6f4f8', 100: '#b3dfe9', 200: '#80cadb', 300: '#4db5cc', 400: '#26a0bd', 500: '#0e7490', 600: '#0c5f75' },
+                        tropical: { 50: '#f0fdf4', 500: '#22c55e', 600: '#16a34a' }
+                    },
+                    fontFamily: {
+                        display: ['Georgia', 'serif'],
+                        body: ['system-ui', '-apple-system', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-overlay { background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)); }
+        .nav-blur { backdrop-filter: blur(8px); }
+    </style>
+</head>
+<body class="font-body text-gray-800 bg-sand-50">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 nav-blur bg-white/90 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="/" class="font-display text-2xl text-ocean-600 font-bold tracking-tight">Escape to GHC</a>
+                <button id="menu-btn" class="md:hidden p-2" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                </button>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/" class="text-ocean-600 font-medium">Home</a>
+                    <a href="/stay.html" class="text-gray-600 hover:text-ocean-600 transition">Stay</a>
+                    <a href="/explore.html" class="text-gray-600 hover:text-ocean-600 transition">Explore</a>
+                    <a href="/eat.html" class="text-gray-600 hover:text-ocean-600 transition">Eat</a>
+                    <a href="/blog.html" class="text-gray-600 hover:text-ocean-600 transition">Blog</a>
+                    <a href="/contact.html" class="text-gray-600 hover:text-ocean-600 transition">Contact</a>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden pb-4 space-y-2">
+                <a href="/" class="block py-2 text-ocean-600 font-medium">Home</a>
+                <a href="/stay.html" class="block py-2 text-gray-600">Stay</a>
+                <a href="/explore.html" class="block py-2 text-gray-600">Explore</a>
+                <a href="/eat.html" class="block py-2 text-gray-600">Eat</a>
+                <a href="/blog.html" class="block py-2 text-gray-600">Blog</a>
+                <a href="/contact.html" class="block py-2 text-gray-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="relative h-screen flex items-center justify-center bg-ocean-500">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1920&q=80');">
+            <div class="hero-overlay absolute inset-0"></div>
+        </div>
+        <div class="relative z-10 text-center text-white px-4 max-w-4xl">
+            <h1 class="font-display text-5xl md:text-7xl font-bold mb-6 leading-tight">Escape to<br>Great Harbour Cay</h1>
+            <p class="text-xl md:text-2xl mb-8 text-white/90 font-light">A hidden paradise in the Berry Islands, Bahamas</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/stay.html" class="bg-white text-ocean-600 px-8 py-3 rounded-full font-medium hover:bg-sand-100 transition text-lg">Book Your Stay</a>
+                <a href="/explore.html" class="border-2 border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white/20 transition text-lg">Explore the Island</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Island Intro -->
+    <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="font-display text-4xl text-ocean-600 mb-6">Welcome to Paradise</h2>
+            <p class="text-lg text-gray-600 leading-relaxed mb-8">Nestled in the heart of the Berry Islands, Great Harbour Cay is one of the Bahamas' best-kept secrets. With miles of pristine white sandy beaches, crystal-clear turquoise waters, and a warm, welcoming community, this island offers a rare escape from the modern world. Whether you're seeking adventure or pure relaxation, GHC delivers an authentic Bahamian experience you won't find anywhere else.</p>
+            <div class="grid md:grid-cols-3 gap-8 mt-12">
+                <div class="bg-white rounded-2xl p-8 shadow-sm">
+                    <div class="text-4xl mb-4">🏖️</div>
+                    <h3 class="font-display text-xl text-ocean-600 mb-2">Pristine Beaches</h3>
+                    <p class="text-gray-500">Miles of powdery white sand and turquoise waters — Sugar Beach, Shark Creek, and more.</p>
+                </div>
+                <div class="bg-white rounded-2xl p-8 shadow-sm">
+                    <div class="text-4xl mb-4">🎣</div>
+                    <h3 class="font-display text-xl text-ocean-600 mb-2">World-Class Fishing</h3>
+                    <p class="text-gray-500">Known as the "Fish Bowl of the Bahamas" — bonefishing, deep sea fishing, and more.</p>
+                </div>
+                <div class="bg-white rounded-2xl p-8 shadow-sm">
+                    <div class="text-4xl mb-4">🏝️</div>
+                    <h3 class="font-display text-xl text-ocean-600 mb-2">Island Adventures</h3>
+                    <p class="text-gray-500">Explore caves, ruins, blue holes, and neighboring cays full of mystery and wonder.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Rentals -->
+    <section class="py-20 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="font-display text-4xl text-ocean-600 text-center mb-4">Where to Stay</h2>
+            <p class="text-center text-gray-500 mb-12 max-w-2xl mx-auto">Two stunning beachfront properties, steps from the sand. Your home in paradise awaits.</p>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Villa's Edge -->
+                <div class="rounded-2xl overflow-hidden shadow-lg group">
+                    <div class="h-64 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=800&q=80');"></div>
+                    <div class="p-8">
+                        <h3 class="font-display text-2xl text-ocean-600 mb-2">Villa's Edge Beach Villa</h3>
+                        <p class="text-gray-500 mb-4">Beachfront villa sleeping 6+ with kitchen, spiral staircase loft, outdoor terrace, and tiki hut. Steps from the beach, 5 min walk to Beach Club.</p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-ocean-50 text-ocean-600 px-3 py-1 rounded-full text-sm">Sleeps 6+</span>
+                            <span class="bg-ocean-50 text-ocean-600 px-3 py-1 rounded-full text-sm">Beachfront</span>
+                            <span class="bg-ocean-50 text-ocean-600 px-3 py-1 rounded-full text-sm">Tiki Hut</span>
+                        </div>
+                        <a href="/stay/villas-edge.html" class="text-ocean-500 font-medium hover:text-ocean-600 transition">Learn More →</a>
+                    </div>
+                </div>
+                <!-- Green Flash -->
+                <div class="rounded-2xl overflow-hidden shadow-lg group">
+                    <div class="h-64 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80');"></div>
+                    <div class="p-8">
+                        <h3 class="font-display text-2xl text-ocean-600 mb-2">Green Flash Cottage</h3>
+                        <p class="text-gray-500 mb-4">3BR/3.5BA cottage sleeping 8 with wrap-around decks, chef's kitchen, daily housekeeping, and true beachfront access — no roads or barriers.</p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-ocean-50 text-ocean-600 px-3 py-1 rounded-full text-sm">Sleeps 8</span>
+                            <span class="bg-ocean-50 text-ocean-600 px-3 py-1 rounded-full text-sm">3BR/3.5BA</span>
+                            <span class="bg-ocean-50 text-ocean-600 px-3 py-1 rounded-full text-sm">Housekeeping</span>
+                        </div>
+                        <a href="/stay/green-flash-cottage.html" class="text-ocean-500 font-medium hover:text-ocean-600 transition">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Blog Posts -->
+    <section class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="font-display text-4xl text-ocean-600 text-center mb-4">From the Blog</h2>
+            <p class="text-center text-gray-500 mb-12">Stories, guides, and island adventures</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <a href="/blog/the-sugar-beach-caves.html" class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition group">
+                    <div class="h-48 bg-ocean-200 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80');"></div>
+                    <div class="p-6">
+                        <span class="text-xs text-ocean-500 font-medium uppercase tracking-wide">Adventures</span>
+                        <h3 class="font-display text-lg text-gray-800 mt-2 group-hover:text-ocean-600 transition">The Sugar Beach Caves</h3>
+                        <p class="text-gray-500 text-sm mt-2">Dubbed one of the prettiest places in The Bahamas — sandy coves, rocky cliffs, and sheltered caves.</p>
+                    </div>
+                </a>
+                <a href="/blog/early-bahamian-days.html" class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition group">
+                    <div class="h-48 bg-sand-200 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80');"></div>
+                    <div class="p-6">
+                        <span class="text-xs text-ocean-500 font-medium uppercase tracking-wide">History</span>
+                        <h3 class="font-display text-lg text-gray-800 mt-2 group-hover:text-ocean-600 transition">Early Bahamian Days: The Beginning</h3>
+                        <p class="text-gray-500 text-sm mt-2">The fascinating origin story of Great Harbour Cay — from freed slaves to Lou Chesler's vision.</p>
+                    </div>
+                </a>
+                <a href="/blog/the-new-beach-club.html" class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition group">
+                    <div class="h-48 bg-sand-100 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80');"></div>
+                    <div class="p-6">
+                        <span class="text-xs text-ocean-500 font-medium uppercase tracking-wide">Eat & Drink</span>
+                        <h3 class="font-display text-lg text-gray-800 mt-2 group-hover:text-ocean-600 transition">The New Beach Club</h3>
+                        <p class="text-gray-500 text-sm mt-2">A seaside culinary haven — the heartbeat of Great Harbour Cay dining.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="text-center mt-12">
+                <a href="/blog.html" class="bg-ocean-500 text-white px-8 py-3 rounded-full font-medium hover:bg-ocean-600 transition">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-ocean-600 text-white py-16 px-4">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="font-display text-2xl mb-4">Escape to GHC</h3>
+                <p class="text-white/70 text-sm">Your guide to Great Harbour Cay, Bahamas. Pristine beaches, island adventures, and beachfront vacation rentals.</p>
+            </div>
+            <div>
+                <h4 class="font-medium mb-4">Navigate</h4>
+                <div class="space-y-2 text-white/70 text-sm">
+                    <a href="/" class="block hover:text-white transition">Home</a>
+                    <a href="/stay.html" class="block hover:text-white transition">Stay</a>
+                    <a href="/explore.html" class="block hover:text-white transition">Explore</a>
+                    <a href="/eat.html" class="block hover:text-white transition">Eat</a>
+                    <a href="/blog.html" class="block hover:text-white transition">Blog</a>
+                    <a href="/contact.html" class="block hover:text-white transition">Contact</a>
+                </div>
+            </div>
+            <div>
+                <h4 class="font-medium mb-4">Properties</h4>
+                <div class="space-y-2 text-white/70 text-sm">
+                    <a href="https://beachvillaghc.com" target="_blank" class="block hover:text-white transition">Villa's Edge Beach Villa</a>
+                    <a href="https://greenflashghc.com" target="_blank" class="block hover:text-white transition">Green Flash Cottage</a>
+                </div>
+            </div>
+            <div>
+                <h4 class="font-medium mb-4">Follow Us</h4>
+                <a href="https://www.instagram.com/escapetoghc/" target="_blank" class="inline-flex items-center gap-2 text-white/70 hover:text-white transition text-sm">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @escapetoghc
+                </a>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-white/20 text-center text-white/50 text-sm">
+            &copy; 2024 Escape to GHC. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
