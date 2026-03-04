@@ -1,16 +1,1231 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Explore — Escape to GHC</title><script src="https://cdn.tailwindcss.com"></script><script>tailwind.config={theme:{extend:{colors:{sand:{50:'#fdf8f0',100:'#f5e6d0',200:'#ebd3b0'},ocean:{50:'#e6f4f8',100:'#b3dfe9',200:'#80cadb',500:'#0e7490',600:'#0c5f75'}},fontFamily:{display:['Georgia','serif'],body:['system-ui','sans-serif']}}}}</script></head><body class="font-body text-gray-800 bg-sand-50"><nav class="fixed top-0 w-full z-50 bg-white/90 shadow-sm" style="backdrop-filter:blur(8px)"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex justify-between items-center h-16"><a href="/escapetoghc/" class="font-display text-2xl text-ocean-600 font-bold">Escape to GHC</a><button class="md:hidden p-2" onclick="document.getElementById('mm').classList.toggle('hidden')"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button><div class="hidden md:flex space-x-8"><a href="/escapetoghc/" class="text-gray-600 hover:text-ocean-600">Home</a><a href="/escapetoghc/stay.html" class="text-gray-600 hover:text-ocean-600">Stay</a><a href="/escapetoghc/explore.html" class="text-ocean-600 font-medium">Explore</a><a href="/escapetoghc/eat.html" class="text-gray-600 hover:text-ocean-600">Eat</a><a href="/escapetoghc/blog.html" class="text-gray-600 hover:text-ocean-600">Blog</a><a href="/escapetoghc/contact.html" class="text-gray-600 hover:text-ocean-600">Contact</a></div></div><div id="mm" class="hidden md:hidden pb-4 space-y-2"><a href="/escapetoghc/" class="block py-2 text-gray-600">Home</a><a href="/escapetoghc/stay.html" class="block py-2 text-gray-600">Stay</a><a href="/escapetoghc/explore.html" class="block py-2 text-ocean-600 font-medium">Explore</a><a href="/escapetoghc/eat.html" class="block py-2 text-gray-600">Eat</a><a href="/escapetoghc/blog.html" class="block py-2 text-gray-600">Blog</a><a href="/escapetoghc/contact.html" class="block py-2 text-gray-600">Contact</a></div></div></nav>
-<section class="relative h-[60vh] flex items-center justify-center bg-ocean-500 mt-16">
-    <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('images/home/fishing.jpg')"><div class="absolute inset-0" style="background:linear-gradient(to bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.5))"></div></div>
-    <div class="relative z-10 text-center text-white px-4"><h1 class="font-display text-5xl md:text-6xl font-bold mb-4">Explore the Island</h1><p class="text-xl text-white/90">Adventures, beaches, caves, fishing & more</p></div>
-</section>
-<section class="py-20 px-4"><div class="max-w-6xl mx-auto">
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-    <div class="bg-white rounded-2xl overflow-hidden shadow-sm"><div class="h-48 bg-cover bg-center" style="background-image:url('images/home/blue-water.jpg')"></div><div class="p-6"><h3 class="font-display text-xl text-ocean-600 mb-2">Sugar Beach & Caves</h3><p class="text-gray-500 text-sm">Sandy coves, rocky cliffs, and sheltered caves dubbed one of the prettiest places in the Bahamas. Hike the trails or explore at high tide by water.</p><a href="/escapetoghc/blog/the-sugar-beach-caves.html" class="text-ocean-500 text-sm font-medium mt-3 inline-block">Read More →</a></div></div>
-    <div class="bg-white rounded-2xl overflow-hidden shadow-sm"><div class="h-48 bg-cover bg-center" style="background-image:url('images/home/fishing.jpg')"></div><div class="p-6"><h3 class="font-display text-xl text-ocean-600 mb-2">Shark Creek</h3><p class="text-gray-500 text-sm">A massive shallow bank at the island's southern tip. Home to eagle rays, baby sea turtles, sharks, and the best shelling on the island.</p><a href="/escapetoghc/blog/the-sharks-of-shark-creek.html" class="text-ocean-500 text-sm font-medium mt-3 inline-block">Read More →</a></div></div>
-    <div class="bg-white rounded-2xl overflow-hidden shadow-sm"><div class="h-48 bg-cover bg-center" style="background-image:url('images/home/hero-beach.jpg')"></div><div class="p-6"><h3 class="font-display text-xl text-ocean-600 mb-2">Hoffman's Cay Blue Hole</h3><p class="text-gray-500 text-sm">A stunning inland blue hole surrounded by limestone caves with stalagmites and columns. Perfect for snorkeling and picnics.</p><a href="/escapetoghc/blog/hoffmans-cay.html" class="text-ocean-500 text-sm font-medium mt-3 inline-block">Read More →</a></div></div>
-    <div class="bg-white rounded-2xl overflow-hidden shadow-sm"><div class="h-48 bg-cover bg-center" style="background-image:url('images/home/lighthouse.jpg')"></div><div class="p-6"><h3 class="font-display text-xl text-ocean-600 mb-2">Cistern Cay Ruins</h3><p class="text-gray-500 text-sm">An abandoned ghost island with a sunken drug-running plane, ruins of luxury homes, and a dark chapter of Bahamian history frozen in time.</p><a href="/escapetoghc/blog/cistern-cay.html" class="text-ocean-500 text-sm font-medium mt-3 inline-block">Read More →</a></div></div>
-    <div class="bg-white rounded-2xl overflow-hidden shadow-sm"><div class="h-48 bg-cover bg-center" style="background-image:url('images/home/beach-scene.jpg')"></div><div class="p-6"><h3 class="font-display text-xl text-ocean-600 mb-2">Bonefishing</h3><p class="text-gray-500 text-sm">The "Fish Bowl of the Bahamas" — world-class bonefishing with legendary guides like Captain Percy Darville. Average catch: 4-7 lbs.</p><a href="/escapetoghc/blog/percy-darville.html" class="text-ocean-500 text-sm font-medium mt-3 inline-block">Read More →</a></div></div>
-    <div class="bg-white rounded-2xl overflow-hidden shadow-sm"><div class="h-48 bg-cover bg-center" style="background-image:url('images/home/cache.jpg')"></div><div class="p-6"><h3 class="font-display text-xl text-ocean-600 mb-2">GHC Marina</h3><p class="text-gray-500 text-sm">Dubbed "The Hurricane Hole" — one of the most protected marinas in the Bahamas. 65 slips, accommodates yachts up to 130 feet.</p><a href="/escapetoghc/blog/ghc-marina.html" class="text-ocean-500 text-sm font-medium mt-3 inline-block">Read More →</a></div></div>
-</div>
-</div></section>
-<footer class="bg-ocean-600 text-white py-16 px-4"><div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-8"><div><h3 class="font-display text-2xl mb-4">Escape to GHC</h3><p class="text-white/70 text-sm">Your guide to Great Harbour Cay, Bahamas.</p></div><div><h4 class="font-medium mb-4">Navigate</h4><div class="space-y-2 text-white/70 text-sm"><a href="/escapetoghc/" class="block hover:text-white">Home</a><a href="/escapetoghc/stay.html" class="block hover:text-white">Stay</a><a href="/escapetoghc/explore.html" class="block hover:text-white">Explore</a><a href="/escapetoghc/eat.html" class="block hover:text-white">Eat</a><a href="/escapetoghc/blog.html" class="block hover:text-white">Blog</a><a href="/escapetoghc/contact.html" class="block hover:text-white">Contact</a></div></div><div><h4 class="font-medium mb-4">Properties</h4><div class="space-y-2 text-white/70 text-sm"><a href="https://beachvillaghc.com" target="_blank" class="block hover:text-white">Villa's Edge Beach Villa</a><a href="https://greenflashghc.com" target="_blank" class="block hover:text-white">Green Flash Cottage</a></div></div><div><h4 class="font-medium mb-4">Follow Us</h4><a href="https://www.instagram.com/escapetoghc/" target="_blank" class="text-white/70 hover:text-white text-sm">📷 @escapetoghc</a></div></div><div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-white/20 text-center text-white/50 text-sm">&copy; 2024 Escape to GHC. All rights reserved.</div></footer></body></html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Explore" />
+  <meta property="og:image" content="wp-content/uploads/2019/09/og-image.png" />
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147555712-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147555712-1');
+</script>
+
+	
+<title>Explore &#8211; Escape to Great Harbour Cay</title>
+<meta name='robots' content='max-image-preview:large' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<style id='themo-accommodation-search-results-inline-css' type='text/css'>
+.elementor-widget-themo-accommodation-search-results .mphb-empty-cart-message{display: none!important;}.elementor-widget-themo-accommodation-search-results .mphb-rooms-quantity{min-height: 30px;height: auto;}.elementor-widget-themo-accommodation-search-results .mphb-rooms-quantity{padding: 0 12px !important;color: #6c6c6c;border: 1px solid #d3d3d3;border-radius: 5px;height: 30px;display: inline-block;width: auto;margin-right: 1em;}
+/*# sourceURL=themo-accommodation-search-results-inline-css */
+</style>
+<link rel="stylesheet" href="wp-content/plugins/th-widget-pack-master/header-footer/css/frontend.css">
+<link rel="stylesheet" href="wp-content/plugins/formidable/css/formidableforms.css">
+<link rel="stylesheet" href="wp-content/plugins/genesis-blocks/dist/style-blocks.build.css">
+<link rel="stylesheet" href="wp-content/plugins/instagram-feed/css/sbi-styles.min.css">
+<link rel="stylesheet" href="wp-content/plugins/th-widget-pack-master/header-footer/hfe-plugin/header-footer/inc/widgets-css/frontend.css">
+<link rel="stylesheet" href="wp-content/plugins/th-widget-pack-master/assets/icons/icons.css">
+<link rel="stylesheet" href="wp-content/plugins/th-widget-pack-master/css/global.css">
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel="stylesheet" href="wp-content/plugins/motopress-hotel-booking/vendors/kbwood/datepick/jquery.datepick.css">
+<link rel="stylesheet" href="wp-content/plugins/motopress-hotel-booking/assets/css/mphb.min.css">
+<link rel="stylesheet" href="wp-content/plugins/th-widget-pack-master/header-footer/hfe-plugin/header-footer/assets/css/header-footer-elementor.css">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/css/frontend.min.css">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css">
+<link rel="stylesheet" href="wp-content/uploads/elementor/css/post-5321.css">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css">
+<link rel="stylesheet" href="wp-content/plugins/instagram-feed/css/sbi-styles.min.css">
+<link rel="stylesheet" href="wp-content/uploads/elementor/css/post-62.css">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/css/widget-social-icons.min.css">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css">
+<link rel="stylesheet" href="wp-content/themes/bellevuex/assets/css/app.css">
+<link rel="stylesheet" href="wp-content/themes/bellevuex/assets/css/hotel-booking.css">
+<link rel="stylesheet" href="wp-content/themes/bellevuex-child/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=auto&ver=6.9.1">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css">
+<link rel="stylesheet" href="wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script type="text/javascript" src="wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="jquery-js-after">
+/* <![CDATA[ */
+!function($){"use strict";$(document).ready(function(){$(this).scrollTop()>100&&$(".hfe-scroll-to-top-wrap").removeClass("hfe-scroll-to-top-hide"),$(window).scroll(function(){$(this).scrollTop()<100?$(".hfe-scroll-to-top-wrap").fadeOut(300):$(".hfe-scroll-to-top-wrap").fadeIn(300)}),$(".hfe-scroll-to-top-wrap").on("click",function(){$("html, body").animate({scrollTop:0},300);return!1})})}(jQuery);
+//# sourceURL=jquery-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js" id="font-awesome-4-shim-js"></script>
+<script type="text/javascript" id="enhanced-ecommerce-google-analytics-js-extra">
+/* <![CDATA[ */
+var ConvAioGlobal = {"nonce":"c56b856969"};
+//# sourceURL=enhanced-ecommerce-google-analytics-js-extra
+/* ]]> */
+</script>
+<script data-cfasync="false" data-no-optimize="1" data-pagespeed-no-defer type="text/javascript" id="enhanced-ecommerce-google-analytics-js-after">
+/* <![CDATA[ */
+tvc_smd={"tvc_wcv":"10.5.0","tvc_wpv":"6.9.1","tvc_eev":"7.2.15","tvc_sub_data":{"sub_id":"84295","cu_id":"70195","pl_id":"1","ga_tra_option":"","ga_property_id":"","ga_measurement_id":"","ga_ads_id":"","ga_gmc_id":"","ga_gmc_id_p":"","op_gtag_js":"0","op_en_e_t":"0","op_rm_t_t":"0","op_dy_rm_t_t":"0","op_li_ga_wi_ads":"0","gmc_is_product_sync":"0","gmc_is_site_verified":"0","gmc_is_domain_claim":"0","gmc_product_count":"0","fb_pixel_id":""}};
+//# sourceURL=enhanced-ecommerce-google-analytics-js-after
+/* ]]> */
+</script>
+<link rel="canonical" href="explore.html" />
+<link rel='shortlink' href='./?p=62' />
+<!--[if lt IE 9]>
+<script src="wp-content/themes/bellevuex/assets/js/vendor/html5shiv.min.js"></script>
+<script src="wp-content/themes/bellevuex/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.18.0; features: e_dom_optimization, e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
+        <script data-cfasync="false" data-no-optimize="1" data-pagespeed-no-defer>
+            var tvc_lc = 'USD';
+        </script>
+        <script data-cfasync="false" data-no-optimize="1" data-pagespeed-no-defer>
+            var tvc_lc = 'USD';
+        </script>
+<script data-cfasync="false" data-pagespeed-no-defer>
+      window.dataLayer = window.dataLayer || [];
+      dataLayer.push({"event":"begin_datalayer","conv_track_email":"1","conv_track_phone":"1","conv_track_address":"1","conv_track_page_scroll":"1","conv_track_file_download":"1","conv_track_author":"1","conv_track_signup":"1","conv_track_signin":"1"});
+    </script>    <!-- Google Tag Manager by Conversios-->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-NGTQ2D2P');
+    </script>
+    <!-- End Google Tag Manager -->
+      <script>
+      (window.gaDevIds = window.gaDevIds || []).push('5CDcaG');
+    </script>
+          <script data-cfasync="false" data-no-optimize="1" data-pagespeed-no-defer>
+            var tvc_lc = 'USD';
+        </script>
+        <script data-cfasync="false" data-no-optimize="1" data-pagespeed-no-defer>
+            var tvc_lc = 'USD';
+        </script>
+<link rel="icon" href="wp-content/uploads/2019/09/cropped-GHC-logo-circle-shadow-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="wp-content/uploads/2019/09/cropped-GHC-logo-circle-shadow-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="wp-content/uploads/2019/09/cropped-GHC-logo-circle-shadow-1-180x180.png" />
+<meta name="msapplication-TileImage" content="wp-content/uploads/2019/09/cropped-GHC-logo-circle-shadow-1-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.page-id-42 .map-info {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1), 0 0 8px 0 rgba(0, 0, 0, 0.12);
+}
+/*body{background-color:#f7f5f5}
+[data-filter*=".p-en-suite"]{
+		display:none !important;
+}
+*/
+.th-portfolio-filters span{display:none}
+
+.th-logo-widget img {
+    max-height: 50px;
+    width: auto;
+}		</style>
+		<style id="kirki-inline-styles">#logo img{max-height:110px;width:auto;}.navbar .navbar-nav{margin-top:19px;}.navbar .navbar-toggle{top:19px;}.themo_cart_icon{margin-top:calc(19px + 10px);}.btn-cta-primary,.navbar .navbar-nav>li>a:hover:after,.navbar .navbar-nav>li.active>a:after,.navbar .navbar-nav>li.active>a:hover:after,.navbar .navbar-nav>li.active>a:focus:after,form input[type=submit],html .woocommerce a.button.alt,html .woocommerce-page a.button.alt,html .woocommerce a.button,html .woocommerce-page a.button,.woocommerce #respond input#submit.alt:hover,.woocommerce a.button.alt:hover,.woocommerce #respond input#submit.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce #respond input#submit.disabled,.woocommerce #respond input#submit:disabled,.woocommerce #respond input#submit:disabled[disabled],.woocommerce a.button.disabled,.woocommerce a.button:disabled,.woocommerce a.button:disabled[disabled],.woocommerce button.button.disabled,.woocommerce button.button:disabled,.woocommerce button.button:disabled[disabled],.woocommerce input.button.disabled,.woocommerce input.button:disabled,.woocommerce input.button:disabled[disabled],.woocommerce #respond input#submit.disabled:hover,.woocommerce #respond input#submit:disabled:hover,.woocommerce #respond input#submit:disabled[disabled]:hover,.woocommerce a.button.disabled:hover,.woocommerce a.button:disabled:hover,.woocommerce a.button:disabled[disabled]:hover,.woocommerce button.button.disabled:hover,.woocommerce button.button:disabled:hover,.woocommerce button.button:disabled[disabled]:hover,.woocommerce input.button.disabled:hover,.woocommerce input.button:disabled:hover,.woocommerce input.button:disabled[disabled]:hover,.woocommerce #respond input#submit.alt.disabled,.woocommerce #respond input#submit.alt.disabled:hover,.woocommerce #respond input#submit.alt:disabled,.woocommerce #respond input#submit.alt:disabled:hover,.woocommerce #respond input#submit.alt:disabled[disabled],.woocommerce #respond input#submit.alt:disabled[disabled]:hover,.woocommerce a.button.alt.disabled,.woocommerce a.button.alt.disabled:hover,.woocommerce a.button.alt:disabled,.woocommerce a.button.alt:disabled:hover,.woocommerce a.button.alt:disabled[disabled],.woocommerce a.button.alt:disabled[disabled]:hover,.woocommerce button.button.alt.disabled,.woocommerce button.button.alt.disabled:hover,.woocommerce button.button.alt:disabled,.woocommerce button.button.alt:disabled:hover,.woocommerce button.button.alt:disabled[disabled],.woocommerce button.button.alt:disabled[disabled]:hover,.woocommerce input.button.alt.disabled,.woocommerce input.button.alt.disabled:hover,.woocommerce input.button.alt:disabled,.woocommerce input.button.alt:disabled:hover,.woocommerce input.button.alt:disabled[disabled],.woocommerce input.button.alt:disabled[disabled]:hover,p.demo_store,.woocommerce.widget_price_filter .ui-slider .ui-slider-handle,.th-conversion form input[type=submit],.th-conversion .with_frm_style input[type=submit],.th-pricing-column.th-highlight,.search-submit,.search-submit:hover,.widget .tagcloud a:hover,.footer .tagcloud a:hover,.btn-standard-primary-form form .frm_submit input[type=submit],.btn-standard-primary-form form .frm_submit input[type=submit]:hover,.btn-ghost-primary-form form .frm_submit input[type=submit]:hover,.btn-cta-primary-form form .frm_submit input[type=submit],.btn-cta-primary-form form .frm_submit input[type=submit]:hover,.th-widget-area form input[type=submit],.th-widget-area .with_frm_style .frm_submit input[type=submit], .th-header-wrap h2.th-title-divider:after, form input[type=submit]:hover, .with_frm_style .frm_submit input[type=submit]:hover, .with_frm_style .frm_submit input[type=button]:hover, .frm_form_submit_style:hover, .with_frm_style.frm_login_form input[type=submit]:hover{background-color:#51a8ad;}a,.accent,.navbar .navbar-nav .dropdown-menu li.active a,.navbar .navbar-nav .dropdown-menu li a:hover,.navbar .navbar-nav .dropdown-menu li.active a:hover,.page-title h1,.inner-container>h1.entry-title,.woocommerce ul.products li.product .price,.woocommerce ul.products li.product .price del,.woocommerce .single-product .product .price,.woocommerce.single-product .product .price,.woocommerce .single-product .product .price ins,.woocommerce.single-product .product .price ins,.a2c-ghost.woocommerce a.button,.th-cta .th-cta-text span,.elementor-widget-themo-header .th-header-wrap .elementor-icon-box-title,.elementor-widget-themo-info-card .th-info-card-wrap .elementor-icon-box-title,.map-info h3,.th-pkg-content h3,.th-pricing-cost,.elementor-widget-themo-service-block .th-service-block-w .elementor-icon-box-title,#main-flex-slider .slides h1,.th-team-member-social a i:hover,.elementor-widget-toggle .elementor-toggle .elementor-toggle-title,.elementor-widget-toggle .elementor-toggle .elementor-toggle-title.active,.elementor-widget-toggle .elementor-toggle .elementor-toggle-icon{color:#51a8ad;}.btn-standard-primary,.btn-ghost-primary:hover,.pager li>a:hover,.pager li>span:hover,.a2c-ghost.woocommerce a.button:hover{background-color:#51a8ad;}.btn-standard-primary,.btn-ghost-primary:hover,.pager li>a:hover,.pager li>span:hover,.a2c-ghost.woocommerce a.button:hover,.btn-standard-primary-form form .frm_submit input[type=submit],.btn-standard-primary-form form .frm_submit input[type=submit]:hover,.btn-ghost-primary-form form .frm_submit input[type=submit]:hover,.btn-ghost-primary-form form .frm_submit input[type=submit]{border-color:#51a8ad;}.btn-ghost-primary,.th-portfolio-filters a.current,.a2c-ghost.woocommerce a.button,.btn-ghost-primary-form form .frm_submit input[type=submit]{color:#51a8ad;}.btn-ghost-primary,.th-portfolio-filters a.current,.a2c-ghost.woocommerce a.button, .th-header-wrap .th-header-divider{border-color:#51a8ad;}form select:focus,form textarea:focus,form input:focus,.th-widget-area .widget select:focus,.search-form input:focus{border-color:#51a8ad!important;}.wpbs-form .wpbs-form-form .wpbs-form-submit, .wpbs-form .wpbs-form-form .wpbs-form-submit:hover, .wpbs-form .wpbs-form-form .wpbs-form-submit:active, .wpbs-form .wpbs-form-form .wpbs-form-submit:focus{background-color:#51a8ad!important;}.elementor-widget-themo-header .th-header-wrap .elementor-icon,.elementor-widget-themo-header.elementor-view-default .th-header-wrap .elementor-icon,.elementor-widget-themo-service-block .th-service-block-w .elementor-icon,.elementor-widget-themo-service-block.elementor-view-default .th-service-block-w .elementor-icon{color:#e08374;}.btn-cta-accent,.a2c-cta.woocommerce a.button,.a2c-cta.woocommerce a.button:hover,.elementor-widget-themo-header.elementor-view-stacked .th-header-wrap .elementor-icon,.elementor-widget-themo-service-block.elementor-view-stacked .th-service-block-w .elementor-icon,.btn-standard-accent-form form .frm_submit input[type=submit],.btn-standard-accent-form form .frm_submit input[type=submit]:hover,.btn-ghost-accent-form form .frm_submit input[type=submit]:hover,.btn-cta-accent-form form .frm_submit input[type=submit],.btn-cta-accent-form form .frm_submit input[type=submit]:hover{background-color:#e08374;}body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block{background:#e08374!important;}body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,.btn-standard-accent-form form .frm_submit input[type=submit],.btn-standard-accent-form form .frm_submit input[type=submit]:hover,.btn-ghost-accent-form form .frm_submit input[type=submit]:hover,.btn-ghost-accent-form form .frm_submit input[type=submit]{border-color:#e08374!important;}.btn-standard-accent,.btn-ghost-accent:hover{background-color:#e08374;border-color:#e08374;}.btn-ghost-accent,.elementor-widget-themo-header.elementor-view-framed .th-header-wrap .elementor-icon,.elementor-widget-themo-service-block.elementor-view-framed .th-service-block-w .elementor-icon,.btn-ghost-accent-form form .frm_submit input[type=submit]{color:#e08374;}.btn-ghost-accent,.elementor-widget-themo-header.elementor-view-framed .th-header-wrap .elementor-icon,.elementor-widget-themo-service-block.elementor-view-framed .th-service-block-w .elementor-icon{border-color:#e08374;}.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{font-family:Raleway;font-weight:600;}body,p,li{font-family:Open Sans;font-size:16px;font-weight:400;line-height:1.65;color:#5c5c5c;}.navbar .navbar-nav > li > a, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li.active > a, .navbar .navbar-nav > li.active > a:hover, .navbar .navbar-nav > li.active > a:focus, .navbar .navbar-nav > li.th-accent{font-family:Open Sans;font-size:16px;font-weight:400;text-transform:inherit;color:#333333;}.themo_mphb_availability_calendar .datepick, .datepick-popup .datepick.mphb-datepick-popup{width:auto!important;}.datepick-popup .datepick.mphb-datepick-popup{max-width:600px;}.woocommerce-cart td.product-quantity input[type=number]{-moz-appearance:textfield; pointer-events:none;:none;}.woocommerce-cart td.product-quantity input[type=number]::-webkit-inner-spin-button, .woocommerce-cart td.product-quantity input[type=number]::-webkit-outer-spin-button{-webkit-appearance: none; -moz-appearance: none; appearance: none; margin: 0;:none;}.th-upper-footer h1.widget-title, .th-upper-footer h2.widget-title, .th-upper-footer h3.widget-title, .th-upper-footer h4.widget-title, .th-upper-footer h5.widget-title, .th-upper-footer h6.widget-title, .th-upper-footer a:hover{color:#FFFFFF;}.th-upper-footer p, .th-upper-footer a, .th-upper-footer ul li, .th-upper-footer ol li, .th-upper-footer .soc-widget i{color:#d2d2d2;}.th-upper-footer{background:#292e31;}.footer input[type=text], .footer input[type=email], .footer input[type=url], .footer input[type=password], .footer input[type=number], .footer input[type=tel], .footer textarea, .footer select, .th-payment-no-img{border-color:rgba(136,136,136,0.3)!important;}.footer .meta-border, .footer ul li, .footer .widget ul li, .footer .widget-title, .footer .widget.widget_categories li a, .footer .widget.widget_pages li a, .footer .widget.widget_nav_menu li a{border-bottom-color:rgba(136,136,136,0.3);}.footer .widget-title:after{background-color:rgba(136,136,136,0.3);}.mphb-calendar.mphb-datepick .datepick-month td .mphb-booked-date.mphb-date-check-in {
+                            background : linear-gradient(to bottom right, #f4f6f2 0, #f4f6f2 50%, #f96d64 50%, #f96d64 100%); 
+                        }
+                        .mphb-calendar.mphb-datepick .datepick-month td .mphb-booked-date{
+                            background-color: #f96d64;
+                        }
+                        .mphb-calendar.mphb-datepick .datepick-month td .mphb-available-date.mphb-date-check-out{
+                            background : linear-gradient(to bottom right, #f96d64 0, #f96d64 50%, #f4f6f2 50%, #f4f6f2 100%);
+                        }
+                        .mphb-calendar.mphb-datepick .datepick-month td .mphb-available-date {
+                            background-color: #f4f6f2;
+                        }/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url(wp-content/fonts/raleway/font) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(wp-content/fonts/open-sans/font) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(wp-content/fonts/open-sans/font) format('woff');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(wp-content/fonts/open-sans/font) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(wp-content/fonts/open-sans/font) format('woff');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(wp-content/fonts/open-sans/font) format('woff');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* math */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(wp-content/fonts/open-sans/font) format('woff');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(wp-content/fonts/open-sans/font) format('woff');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(wp-content/fonts/open-sans/font) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(wp-content/fonts/open-sans/font) format('woff');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(wp-content/fonts/open-sans/font) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style><link rel="stylesheet" href="wp-content/plugins/elementor/assets/lib/animations/animations.min.css">
+
+</head>
+
+
+<body data-rsssl=1 class="wp-singular page-template-default page page-id-62 wp-theme-bellevuex wp-child-theme-bellevuex-child theme-bellevuex woocommerce-no-js ehf-template-bellevuex ehf-stylesheet-bellevuex-child elementor-default elementor-kit-5321 elementor-page elementor-page-62 th-sticky-header">
+
+        <!-- Preloader Start -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        <!-- Preloader End -->
+    
+
+
+
+  
+<header class="banner navbar navbar-default navbar-static-top dark-header th-dark-dropdown" role="banner" data-transparent-header="true">
+    
+                <!-- top navigation -->
+                <div class="top-nav">
+                    <div class="container">
+                        <div class="row col-md-12">
+                            <div class="top-nav-text">
+                                <p>Escape to Great Harbour Cay, Bahamas</p>                            </div>
+                            <div class="top-nav-icon-blocks"><div class="icon-block"><p><a href='/contact/'><i class='fa fa-envelope-open-o'></i><span>Contact Us</span></a></p></div><div class="icon-block"><p><a target="_blank" href='https://www.instagram.com/EscapeToGHC/'><i class='fa fa-instagram'></i><span>Follow Us</span></a></p></div><div class="icon-block"><p><a href='/map'><i class='fa fa-map-o'></i><span>Interactive Island Map</span></a></p></div></div>                        </div>
+                    </div>
+                </div><!-- END top navigation -->
+                	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div id="logo">
+                <a href="index.html">
+                   	                        <img  class="logo-trans logo-reg" src="wp-content/uploads/2019/09/GHC-logo-transparent-white-for-web-1-201x200.png"  height='110' width='111'   alt="Escape to Great Harbour Cay" />
+                                        <img  class="logo-main logo-reg" src="wp-content/uploads/2019/09/GHC-logo-transparent-white-for-web-1-201x200.png"  height='110' width='111'   alt="Escape to Great Harbour Cay" />
+				</a>
+            </div>
+        </div>
+
+        
+        <div class='themo_cart_icon'><a href='#'><i class='th-icon th-i-cart'></i></a></div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul id="menu-main-menu" class="nav navbar-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-150"><a href="index.html">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5436"><a href="/#villas">Stay</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-368"><a href="/explore/#where-to-eat" aria-current="page">Eat</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-380"><a href="/explore/#what-to-see" aria-current="page">Explore</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-381"><a href="/explore/#what-to-do" aria-current="page">Experience</a></li>
+
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129"><a href="great-harbour-cay.html">Island Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411"><a href="contact.html">Contact</a></li>
+</ul>        </nav>
+	</div>
+</header>
+  <div class="wrap" role="document">
+  
+    <div class="content">
+
+        
+<div class="inner-container">
+	        <h1 class="entry-title">Explore</h1>
+    
+	
+        <section class="content-editor">
+    		<div data-elementor-type="wp-post" data-elementor-id="62" class="elementor elementor-62">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-3abe1d47 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle" data-id="3abe1d47" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/youtu.be\/JBmqlQoAe5A&quot;,&quot;background_video_end&quot;:6,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
+								<div class="elementor-background-video-container">
+													<div class="elementor-background-video-embed"></div>
+												</div>
+									<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1cd780e3" data-id="1cd780e3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-367392ab elementor-widget elementor-widget-spacer" data-id="367392ab" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2745faf1 elementor-view-default elementor-position-top elementor-invisible elementor-widget elementor-widget-themo-header" data-id="2745faf1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="themo-header.default">
+				<div class="elementor-widget-container">
+					<div class="th-header-wrap">
+        <div class="elementor-icon-box-wrapper ">
+                            <div class="elementor-icon-box-content">
+                    <h1 class="elementor-icon-box-title">
+                        EAT, EXPLORE &amp; EXPERIENCE                    </h1>
+                                        <p class="elementor-icon-box-description">Discover the hidden gems of Great Harbour Cay</p>
+
+                                    </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-271846f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="271846f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4debf21" data-id="4debf21" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-bd0da9a elementor-widget elementor-widget-spacer" data-id="bd0da9a" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-581c55a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="581c55a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-wider">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dd192b8" data-id="dd192b8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9ecd314 elementor-view-stacked elementor-shape-circle elementor-position-top elementor-widget elementor-widget-themo-service-block" data-id="9ecd314" data-element_type="widget" data-widget_type="themo-service-block.default">
+				<div class="elementor-widget-container">
+					<div class="th-service-block-w">
+            <div class="elementor-icon-box-wrapper th-show-icon">
+                                    <div class="elementor-icon-box-icon th-icon-size-xl">
+                        <a class="elementor-icon " href="#what-to-do">
+                            <i class="th-trip travelpack-direction-sign" aria-hidden="true" fff></i>                        </a>
+                    </div>
+                                <div class="elementor-icon-box-content">
+                    <h4 class="elementor-icon-box-title">
+                        <a href="#what-to-do">WHAT TO DO</a>
+                    </h4>
+                    <p class="elementor-icon-box-description">EXPERIENCE</p>
+                </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d0e5233 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d0e5233" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c12318f" data-id="c12318f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ccab304 elementor-widget elementor-widget-spacer" data-id="ccab304" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-27beb6a elementor-widget elementor-widget-menu-anchor" data-id="27beb6a" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="what-to-do" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7a707642 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="7a707642" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-51c865a" data-id="51c865a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f3d942c elementor-widget elementor-widget-spacer" data-id="f3d942c" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6fd46887" data-id="6fd46887" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-56628d52 elementor-position-left elementor-view-default elementor-widget elementor-widget-themo-header" data-id="56628d52" data-element_type="widget" data-widget_type="themo-header.default">
+				<div class="elementor-widget-container">
+					<div class="th-header-wrap">
+        <div class="elementor-icon-box-wrapper ">
+                            <div class="elementor-icon-box-content">
+                    <h3 class="elementor-icon-box-title">
+                        The Blue Hole                    </h3>
+                                        <p class="elementor-icon-box-description">For those adventurous boaters, Hoffmann’s Cay has a world wonder located deep in the jungles - a massive Blue Hole that’s perfect for snorkeling, paddle boarding and looking into the deep dark underwater abyss. </p>
+
+                                            <div class="th-btn-wrap">
+                                                            <a class="btn-1 btn th-btn btn-standard-dark" href="/hoffmans-cay-natural-history-mystery/">
+                                                                            More info                                                                    </a>
+                            
+                                                    </div>
+                                    </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-48f8af9 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="48f8af9" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f2618d0" data-id="f2618d0" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b0d4737 elementor-widget elementor-widget-menu-anchor" data-id="b0d4737" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="more1" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-aa5ed66 elementor-widget elementor-widget-spacer" data-id="aa5ed66" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8824574" data-id="8824574" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-11cecdb elementor-position-left elementor-view-default elementor-widget elementor-widget-themo-header" data-id="11cecdb" data-element_type="widget" data-widget_type="themo-header.default">
+				<div class="elementor-widget-container">
+					<div class="th-header-wrap">
+        <div class="elementor-icon-box-wrapper ">
+                            <div class="elementor-icon-box-content">
+                    <h3 class="elementor-icon-box-title">
+                        Great Harbour Cay Marina                    </h3>
+                                        <p class="elementor-icon-box-description">The Great Harbour Cay Marina is a great place for boaters, fisherman, and water sports enthusiasts to find and book their favorite nautical activities. </p>
+
+                                            <div class="th-btn-wrap">
+                                                            <a class="btn-1 btn th-btn btn-standard-dark" href="/dock-your-boat-at-great-harbour-cay-marina/">
+                                                                            More info                                                                    </a>
+                            
+                                                    </div>
+                                    </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-0ae548a elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="0ae548a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d687d0e" data-id="d687d0e" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d2c015e elementor-widget elementor-widget-menu-anchor" data-id="d2c015e" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="more2" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0df8721 elementor-widget elementor-widget-spacer" data-id="0df8721" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2d8249c" data-id="2d8249c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-e335ac6 elementor-position-left elementor-view-default elementor-widget elementor-widget-themo-header" data-id="e335ac6" data-element_type="widget" data-widget_type="themo-header.default">
+				<div class="elementor-widget-container">
+					<div class="th-header-wrap">
+        <div class="elementor-icon-box-wrapper ">
+                            <div class="elementor-icon-box-content">
+                    <h3 class="elementor-icon-box-title">
+                        Shark Creek                    </h3>
+                                        <p class="elementor-icon-box-description">Experience a variety of sea-life, breathtaking beaches and great fishing at the southern most tip of Great Harbour Cay.</p>
+
+                                            <div class="th-btn-wrap">
+                                                            <a class="btn-1 btn th-btn btn-standard-dark" href="/the-sharks-of-shark-creek/">
+                                                                            More info                                                                    </a>
+                            
+                                                    </div>
+                                    </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-297d4ae elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="297d4ae" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-169b7da" data-id="169b7da" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9307a75 elementor-widget elementor-widget-menu-anchor" data-id="9307a75" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="more2" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-86e8420 elementor-widget elementor-widget-spacer" data-id="86e8420" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2734d06" data-id="2734d06" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8083dc4 elementor-position-left elementor-view-default elementor-widget elementor-widget-themo-header" data-id="8083dc4" data-element_type="widget" data-widget_type="themo-header.default">
+				<div class="elementor-widget-container">
+					<div class="th-header-wrap">
+        <div class="elementor-icon-box-wrapper ">
+                            <div class="elementor-icon-box-content">
+                    <h3 class="elementor-icon-box-title">
+                        Bonefishing with Percy                    </h3>
+                                        <p class="elementor-icon-box-description">The Berry Islands is inhabited by not just eclectic wildlife, but also eclectic characters. If bonefishing is your game, then Captain Percy Darville is one such character that you need to meet on your Great Harbour Cay Adventure.</p>
+
+                                            <div class="th-btn-wrap">
+                                                            <a class="btn-1 btn th-btn btn-standard-dark" href="/meet-percy-darville-the-bonefishing-master/">
+                                                                            More info                                                                    </a>
+                            
+                                                    </div>
+                                    </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-52a97559 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="52a97559" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-wider">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-62b24954" data-id="62b24954" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-78f60efa elementor-widget elementor-widget-themo-call-to-action" data-id="78f60efa" data-element_type="widget" data-widget_type="themo-call-to-action.default">
+				<div class="elementor-widget-container">
+					<div class="th-cta">
+					        <div class="th-cta-text">
+		            <span>Spend Your Next Vacation in Great Harbour Cay!</span>
+		        </div>
+		    
+                        <div class="th-cta-btn">
+
+                                    <a class="btn-1 btn th-btn btn-ghost-light" href="https://escapetoghc.wpengine.com/#villas" target="_blank">
+                                                    Book Now                                            </a>
+                
+                            </div>
+            		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-87831ca elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="87831ca" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-wider">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a452321" data-id="a452321" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7dbc731 elementor-view-stacked elementor-shape-circle elementor-position-top elementor-widget elementor-widget-themo-service-block" data-id="7dbc731" data-element_type="widget" data-widget_type="themo-service-block.default">
+				<div class="elementor-widget-container">
+					<div class="th-service-block-w">
+            <div class="elementor-icon-box-wrapper th-show-icon">
+                                    <div class="elementor-icon-box-icon th-icon-size-xl">
+                        <a class="elementor-icon " href="#what-to-see">
+                            <i class="th-trip travelpack-trifolded-map-route" aria-hidden="true" fff></i>                        </a>
+                    </div>
+                                <div class="elementor-icon-box-content">
+                    <h4 class="elementor-icon-box-title">
+                        <a href="#what-to-see">WHAT TO SEE</a>
+                    </h4>
+                    <p class="elementor-icon-box-description">EXPLORE</p>
+                </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-824d74b elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="824d74b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-56e62bc" data-id="56e62bc" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1f73da2 elementor-widget elementor-widget-menu-anchor" data-id="1f73da2" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="what-to-see" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-aa6cfe4 elementor-widget elementor-widget-spacer" data-id="aa6cfe4" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8273496" data-id="8273496" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c1070c7 elementor-position-left elementor-view-default elementor-widget elementor-widget-themo-header" data-id="c1070c7" data-element_type="widget" data-widget_type="themo-header.default">
+				<div class="elementor-widget-container">
+					<div class="th-header-wrap">
+        <div class="elementor-icon-box-wrapper ">
+                            <div class="elementor-icon-box-content">
+                    <h3 class="elementor-icon-box-title">
+                        The Old Club House                    </h3>
+                                        <p class="elementor-icon-box-description">Explore the ruins of the old Club House where the Rat Pack once vacationed.</p>
+
+                                            <div class="th-btn-wrap">
+                                                            <a class="btn-1 btn th-btn btn-standard-dark" href="/the-old-clubhouse-still-breaths/">
+                                                                            More info                                                                    </a>
+                            
+                                                    </div>
+                                    </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b5b0be2 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="b5b0be2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-99129ff" data-id="99129ff" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-78aa537 elementor-widget elementor-widget-menu-anchor" data-id="78aa537" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="more3" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c257ce4 elementor-widget elementor-widget-spacer" data-id="c257ce4" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d795b9d" data-id="d795b9d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1720ef7 elementor-position-left elementor-view-default elementor-widget elementor-widget-themo-header" data-id="1720ef7" data-element_type="widget" data-widget_type="themo-header.default">
+				<div class="elementor-widget-container">
+					<div class="th-header-wrap">
+        <div class="elementor-icon-box-wrapper ">
+                            <div class="elementor-icon-box-content">
+                    <h3 class="elementor-icon-box-title">
+                        Cistern Cay                    </h3>
+                                        <p class="elementor-icon-box-description">As one approaches the abandoned Ghost Island of Cistern Cay, they will be ominously greeted by the sunken wreck of a drug-running plane, as a symbol of a dark age in Bahamian History, because Cistern Cay was known as a hub for drug dealers in its heyday.</p>
+
+                                            <div class="th-btn-wrap">
+                                                            <a class="btn-1 btn th-btn btn-standard-dark" href="/drug-runners-ruins-exploring-cistern-cay/">
+                                                                            More info                                                                    </a>
+                            
+                                                    </div>
+                                    </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a43854b elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="a43854b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bac65ef" data-id="bac65ef" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9a4c09a elementor-widget elementor-widget-menu-anchor" data-id="9a4c09a" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="more4" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0ac19a3 elementor-widget elementor-widget-spacer" data-id="0ac19a3" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d3311c1" data-id="d3311c1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0c1fefb elementor-position-left elementor-view-default elementor-widget elementor-widget-themo-header" data-id="0c1fefb" data-element_type="widget" data-widget_type="themo-header.default">
+				<div class="elementor-widget-container">
+					<div class="th-header-wrap">
+        <div class="elementor-icon-box-wrapper ">
+                            <div class="elementor-icon-box-content">
+                    <h3 class="elementor-icon-box-title">
+                        Sugar Beach Caves                    </h3>
+                                        <p class="elementor-icon-box-description">Explore the caves on Sugar Beach.</p>
+
+                                            <div class="th-btn-wrap">
+                                                            <a class="btn-1 btn th-btn btn-standard-dark" href="/the-sugar-beach-caves/">
+                                                                            More info                                                                    </a>
+                            
+                                                    </div>
+                                    </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4d852d10 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4d852d10" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-wider">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-11295af9" data-id="11295af9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-464428c5 elementor-widget elementor-widget-themo-call-to-action" data-id="464428c5" data-element_type="widget" data-widget_type="themo-call-to-action.default">
+				<div class="elementor-widget-container">
+					<div class="th-cta">
+					        <div class="th-cta-text">
+		            <span>Spend Your Next Vacation in Great Harbour Cay!</span>
+		        </div>
+		    
+                        <div class="th-cta-btn">
+
+                                    <a class="btn-1 btn th-btn btn-ghost-light" href="https://escapetoghc.wpengine.com/#villas" target="_blank">
+                                                    Book Now                                            </a>
+                
+                            </div>
+            		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2bba3fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2bba3fc" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-wider">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e0d2d1f" data-id="e0d2d1f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0617859 elementor-view-stacked elementor-shape-circle elementor-position-top elementor-widget elementor-widget-themo-service-block" data-id="0617859" data-element_type="widget" data-widget_type="themo-service-block.default">
+				<div class="elementor-widget-container">
+					<div class="th-service-block-w">
+            <div class="elementor-icon-box-wrapper th-show-icon">
+                                    <div class="elementor-icon-box-icon th-icon-size-xl">
+                        <a class="elementor-icon " href="#where-to-eat">
+                            <i class="th-trip travelpack-fork-plate-knife" aria-hidden="true" fff></i>                        </a>
+                    </div>
+                                <div class="elementor-icon-box-content">
+                    <h4 class="elementor-icon-box-title">
+                        <a href="#where-to-eat">WHERE TO EAT</a>
+                    </h4>
+                    <p class="elementor-icon-box-description">INDULGE</p>
+                </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-341c959 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="341c959" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-15ddd96" data-id="15ddd96" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-80abc97 elementor-widget elementor-widget-menu-anchor" data-id="80abc97" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="where-to-eat" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8289ea2 elementor-widget elementor-widget-spacer" data-id="8289ea2" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ab9637c" data-id="ab9637c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-01cc6d9 elementor-position-left elementor-view-default elementor-widget elementor-widget-themo-header" data-id="01cc6d9" data-element_type="widget" data-widget_type="themo-header.default">
+				<div class="elementor-widget-container">
+					<div class="th-header-wrap">
+        <div class="elementor-icon-box-wrapper ">
+                            <div class="elementor-icon-box-content">
+                    <h3 class="elementor-icon-box-title">
+                        The Beach Club                    </h3>
+                                        <p class="elementor-icon-box-description">Nestled on the sandy dunes just steps away from the shore, is a local hang and the only joint located right on Great Harbour Cay Beach. Known to the locals as “Da Beach Club,” the blue and yellow structure is hard to miss</p>
+
+                                            <div class="th-btn-wrap">
+                                                            <a class="btn-1 btn th-btn btn-standard-dark" href="/the-beach-club-where-life-is-a-beach/">
+                                                                            More info                                                                    </a>
+                            
+                                                    </div>
+                                    </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2833ef3 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="2833ef3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-49615a2" data-id="49615a2" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a1537d6 elementor-widget elementor-widget-menu-anchor" data-id="a1537d6" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="more5" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e3de218 elementor-widget elementor-widget-spacer" data-id="e3de218" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3425369" data-id="3425369" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-93061ae elementor-position-left elementor-view-default elementor-widget elementor-widget-themo-header" data-id="93061ae" data-element_type="widget" data-widget_type="themo-header.default">
+				<div class="elementor-widget-container">
+					<div class="th-header-wrap">
+        <div class="elementor-icon-box-wrapper ">
+                            <div class="elementor-icon-box-content">
+                    <h3 class="elementor-icon-box-title">
+                        The Carriearl Roost                    </h3>
+                                        <p class="elementor-icon-box-description">The New Soul Fly Lodge has a full service restaurant and bar onsite, called The Carriearl Roost. By reservation only, they have a great menu for dinner and brunch on certain days of the week! </p>
+
+                                            <div class="th-btn-wrap">
+                                                            <a class="btn-1 btn th-btn btn-standard-dark" href="/hotel-crash-at-carriearls-dining/">
+                                                                            More info                                                                    </a>
+                            
+                                                    </div>
+                                    </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-86e814e elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="86e814e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-141cb02" data-id="141cb02" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c1b4b6a elementor-widget elementor-widget-menu-anchor" data-id="c1b4b6a" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="more6" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-97e7d68 elementor-widget elementor-widget-spacer" data-id="97e7d68" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1636832" data-id="1636832" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-bba238a elementor-position-left elementor-view-default elementor-widget elementor-widget-themo-header" data-id="bba238a" data-element_type="widget" data-widget_type="themo-header.default">
+				<div class="elementor-widget-container">
+					<div class="th-header-wrap">
+        <div class="elementor-icon-box-wrapper ">
+                            <div class="elementor-icon-box-content">
+                    <h3 class="elementor-icon-box-title">
+                        Coolie Mae’s Sunset by the Sea                    </h3>
+                                        <p class="elementor-icon-box-description">Sitting on a Bullocks Harbour hill and overlooking the sun’s trajectory is a hidden Bahamian gem known to the locals as Coolie Mae’s Sunset Restaurant. There’s something about dining in a place that looks and feels like grandma’s house. It’s an old-world charm that’s tough to beat.</p>
+
+                                            <div class="th-btn-wrap">
+                                                            <a class="btn-1 btn th-btn btn-standard-dark" href="/coolie-maes-is-rustic-charm-with-a-view/">
+                                                                            More info                                                                    </a>
+                            
+                                                    </div>
+                                    </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-282c53d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="282c53d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f49e139" data-id="f49e139" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-cf1a3fc elementor-widget elementor-widget-spacer" data-id="cf1a3fc" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		    </section>    
+        <!-- Comment form for pages -->
+	<div class='container'>        <div class="row">
+			<div class="col-md-12">
+	        
+
+            </div>
+        </div>
+    </div><!-- /.container -->    <!-- End Comment form for pages -->
+    
+        
+                    
+    
+    </div><!-- /.inner-container -->
+    </div><!-- /.content -->
+  </div><!-- /.wrap -->
+  
+<div class="prefooter"></div>
+
+<footer class="footer" role="contentinfo">
+        <div class="th-upper-footer">
+        <div class="container">
+            <div class="footer-widgets row th-widget-area">
+                                                              </div>
+        </div>
+    </div>
+    
+        </footer>
+
+    
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/bellevuex-child/*","/wp-content/themes/bellevuex/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+	<script type="text/javascript">
+		function genesisBlocksShare( url, title, w, h ){
+			var left = ( window.innerWidth / 2 )-( w / 2 );
+			var top  = ( window.innerHeight / 2 )-( h / 2 );
+			return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=600, height=600, top='+top+', left='+left);
+		}
+	</script>
+	    <script data-cfasync="false" data-no-optimize="1" data-pagespeed-no-defer>
+      document.addEventListener('DOMContentLoaded', function() {
+        var downloadLinks = document.querySelectorAll('a[href]');
+
+        downloadLinks.forEach(function(link) {
+          link.addEventListener('click', function(event) {
+            var fileUrl = link.href;
+            var fileName = fileUrl.substring(fileUrl.lastIndexOf('/') + 1);
+            var linkText = link.innerText || link.textContent;
+            var linkUrl = link.href;
+
+            var fileExtensionPattern = /\.(pdf|xlsx?|docx?|txt|rtf|csv|exe|key|pptx?|ppt|7z|pkg|rar|gz|zip|avi|mov|mp4|mpe?g|wmv|midi?|mp3|wav|wma)$/i;
+
+            if (fileExtensionPattern.test(fileUrl)) {
+              window.dataLayer = window.dataLayer || [];
+              window.dataLayer.push({
+                event: 'file_download',
+                file_name: fileName,
+                link_text: linkText,
+                link_url: linkUrl
+              });
+            }
+          });
+        });
+      });
+    </script>
+    <!-- Instagram Feed JS -->
+
+	<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script type="text/javascript" src="wp-content/plugins/motopress-hotel-booking/vendors/canjs/can.custom.min.js" id="mphb-canjs-js"></script>
+<script type="text/javascript" src="wp-content/plugins/motopress-hotel-booking/vendors/kbwood/datepick/jquery.plugin.min.js" id="mphb-kbwood-plugin-js"></script>
+<script type="text/javascript" src="wp-content/plugins/motopress-hotel-booking/vendors/kbwood/datepick/jquery.datepick.min.js" id="mphb-kbwood-datepick-js"></script>
+<script type="text/javascript" id="mphb-js-extra">
+/* <![CDATA[ */
+var MPHB = {"_data":{"settings":{"currency":{"code":"USD","price_format":"\u003Cspan class=\"mphb-currency\"\u003E&#36;\u003C/span\u003E%s","decimals":2,"decimal_separator":".","thousand_separator":","},"siteName":"Escape to Great Harbour Cay","currentLanguage":"en","firstDay":1,"numberOfMonthCalendar":2,"numberOfMonthDatepicker":2,"dateFormat":"dd/mm/yyyy","dateTransferFormat":"yyyy-mm-dd","useBilling":true,"useCoupons":false,"datepickerClass":"","countryRequired":true,"fullAddressRequired":false,"isDirectBooking":true},"today":"2026-03-03","ajaxUrl":"./wp-admin/admin-ajax.php","nonces":{"mphb_create_stripe_payment_intent":"77b62ce9bf","mphb_update_checkout_info":"9de93f5493","mphb_update_rate_prices":"9253811199","mphb_get_billing_fields":"d6dcc10cb8","mphb_apply_coupon":"4e883227af","mphb_get_free_accommodations_amount":"da66d3dc5b"},"roomTypesData":[],"translations":{"errorHasOccured":"An error has occurred, please try again later.","booked":"Booked","pending":"Pending","available":"Available","notAvailable":"Not available","notStayIn":"Not stay-in","notCheckIn":"Not check-in","notCheckOut":"Not check-out","past":"Day in the past","checkInDate":"Check-in date","lessThanMinDaysStay":"Less than min days stay","moreThanMaxDaysStay":"More than max days stay","laterThanMaxDate":"Later than max date for current check-in date","rules":"Rules:","tokenizationFailure":"Tokenisation failed: %s","roomsAddedToReservation_singular":"%1$d &times; &ldquo;%2$s&rdquo; has been added to your reservation.","roomsAddedToReservation_plural":"%1$d &times; &ldquo;%2$s&rdquo; have been added to your reservation.","countRoomsSelected_singular":"%s accommodation selected.","countRoomsSelected_plural":"%s accommodations selected.","emptyCouponCode":"Coupon code is empty.","checkInNotValid":"Check-in date is not valid.","checkOutNotValid":"Check-out date is not valid."},"page":{"isCheckoutPage":false,"isSingleRoomTypePage":false,"isSearchResultsPage":false,"isCreateBookingPage":false},"rules":{"reservationRules":{"check_in_days":[{"season_ids":[0],"room_type_ids":[0],"check_in_days":[0,1,2,3,4,5,6]}],"check_out_days":[{"season_ids":[0],"room_type_ids":[0],"check_out_days":[0,1,2,3,4,5,6]}],"min_stay_length":[{"season_ids":[0],"room_type_ids":[0],"min_stay_length":1}],"max_stay_length":[{"season_ids":[0],"room_type_ids":[0],"max_stay_length":15},{"season_ids":[0],"room_type_ids":[0],"max_stay_length":0}]},"dates":[],"blockedTypes":[]},"gateways":[],"seasons":[],"roomTypeId":0,"allRoomTypeIds":[83,82,81,80,79]}};
+//# sourceURL=mphb-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="wp-content/plugins/motopress-hotel-booking/assets/js/public/mphb.min.js" id="mphb-js"></script>
+<script type="text/javascript" src="wp-content/plugins/genesis-blocks/dist/assets/js/dismiss.js" id="genesis-blocks-dismiss-js-js"></script>
+<script type="text/javascript" src="wp-content/plugins/th-widget-pack-master/js/themo-foot.js" id="themo-js-foot-js"></script>
+<script type="text/javascript" src="wp-content/themes/bellevuex/assets/js/vendor/vendor_footer.js" id="t_vendor_footer-js"></script>
+<script type="text/javascript" src="wp-content/themes/bellevuex/assets/js/main.js" id="roots_main-js"></script>
+<script type="text/javascript" src="wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js"></script>
+<script type="text/javascript" src="wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.18.0","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"additional_custom_breakpoints":true,"block_editor_assets_optimize":true,"landing-pages":true,"e_image_loading_optimization":true,"e_global_styleguide":true},"urls":{"assets":"wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":62,"title":"Explore%20%E2%80%93%20Escape%20to%20Great%20Harbour%20Cay","excerpt":"","featuredImage":false}};
+//# sourceURL=elementor-frontend-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="wp-content/plugins/elementor/assets/js/frontend.min.js" id="elementor-frontend-js"></script>
+
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d6d3b600a3181a3',t:'MTc3MjU4OTA0NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
